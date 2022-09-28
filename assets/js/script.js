@@ -1,7 +1,6 @@
 tagHtml = {
     inputCidade: document.getElementById('nome-local'),
     btnEnviar: document.getElementById('botao'),
-    areaDosDados: document.querySelector('.tabela'),
     tabLocalidade: document.getElementById('localidade'),
     tabDescricao: document.getElementById('descricao'),
     tabTemperatura: document.getElementById('temperatura'),
