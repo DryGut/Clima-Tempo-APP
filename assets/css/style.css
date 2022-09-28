@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.card {
+    position: relative;
+    top: 1rem;
+}
+.container {
+    position: relative;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.input-group {
+    position: relative;
+    top: 0.5rem;
+    width: 18rem;
+}
+
+.calendario {
+    position: relative;
+    top: 1rem;
+    border: solid 1px;
+    font-size: 20px;
+    margin: auto;
+}
+
+tr, th, td {
+    border: solid 1px;
+    padding: 10px 70px;
+    text-align: center;
+}
+
+#clima {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.image-parent {
+    position: relative;
+    top: -3rem;
+    left: 12rem;
+    padding-right: 12rem;
+}
+
+#sunrise, #sunset, #temperatura {
+    position: relative;
+    top: -3rem;
+}
+
+.list-group-item {
+    color: rgb(243, 113, 7);
+    font-weight: 900;
+}
+
+.list-group-flush {
+    position: relative;
+    top: 3rem;
+}
+
+.btn-outline-secondary {
+    color: #4c82b3;
+    border-color: #4c82b3;
+}

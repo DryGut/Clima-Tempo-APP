@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Weather APP</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="input-group md-3">
+                <input class="form-control" type="text" id="nome-local" placeholder="Insira o nome da cidade" aria-describedby="botao" required>
+                <button class="btn btn-outline-secondary" type="button" id="botao">Enviar</button>
+            </div>
+            <div class="card text-black" style="width: 18rem;">
+                <div class="card-header">
+                    <h5 class="card-title">Previsão do Tempo</h5>
+                </div>
+                <img id="imagem-clima" class="card-img" alt="">
+                <div class="card-img-overlay">
+                    <ul class="list-group list-group-flush" style="display: none">
+                        <li class="list-group-item bg-transparent text-green" id="localidade"></li>
+                        <li class="list-group-item bg-transparent text-green" id="descricao"></li>
+                        <div class="image-parent">
+                            <img class="img-fluid" id="clima" alt="">
+                        </div>
+                        <li class="list-group-item bg-transparent text-green" id="temperatura"></li>
+                        <li class="list-group-item bg-transparent text-green" id="sunrise"></li>
+                        <li class="list-group-item bg-transparent text-green" id="sunset"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
