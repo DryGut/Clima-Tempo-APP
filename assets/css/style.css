@@ -8,30 +8,11 @@ div.card {
     position: relative;
     top: 1rem;
 }
-.container {
-    position: relative;
-    text-align: center;
-    line-height: 3rem;
-}
 
 .input-group {
     position: relative;
     top: 0.5rem;
     width: 18rem;
-}
-
-.calendario {
-    position: relative;
-    top: 1rem;
-    border: solid 1px;
-    font-size: 20px;
-    margin: auto;
-}
-
-tr, th, td {
-    border: solid 1px;
-    padding: 10px 70px;
-    text-align: center;
 }
 
 #clima {
